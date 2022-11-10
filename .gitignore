@@ -1,0 +1,12 @@
+lib
+node_modules
+
+src/env.local.json
+
+.idea
+.vscode/
+
+src/cert/*.pem
+src/cert/*.key
+src/cert/*.srl
+src/cert/*.conf
