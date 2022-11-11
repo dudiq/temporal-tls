@@ -10,7 +10,7 @@ export function getOptions(){
       crt: fs.readFileSync(join(dir, './cert/client.pem')),
       key: fs.readFileSync(join(dir, './cert/client.key')),
     },
-    serverRootCACertificate: fs.readFileSync(join(dir, './cert/ca.pem')),
+    // serverRootCACertificate: fs.readFileSync(join(dir, './cert/ca.pem')),
   }
 
   const options = {
